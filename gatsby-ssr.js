@@ -1,7 +1,7 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+const React = require('react')
 
-// You can delete this file if you're not using it
+export function wrapPageElement({ element, props }) {
+  const Layout = element.type.Layout ?? React.Fragment
+
+  return <Layout {...props}>{element}</Layout>
+}

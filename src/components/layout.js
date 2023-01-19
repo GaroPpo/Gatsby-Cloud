@@ -1,55 +1,50 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+import React, { useState, useEffect } from 'react'
+import Helmet from 'react-helmet'
 
-import * as React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import favicon from '../assets/favicon.png'
+import { Navigation } from './Navigation'
+import { Footer } from './Footer'
 
-import Header from "./header"
-import "./layout.css"
+import '../style/style.css'
+import '../style/responsive.css'
+import '../style/new-moon.css'
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
+export const Layout = ({ children }) => {
+  const [theme, setTheme] = useState('dark')
+
+  const onUpdateTheme = () => {
+    const newTheme = theme === 'dark' ? 'light' : 'dark'
+    window.localStorage.setItem('theme', newTheme)
+    setTheme(newTheme)
+  }
+
+  useEffect(() => {
+    const savedTheme = window.localStorage.getItem('theme')
+
+    if (savedTheme) {
+      setTheme(savedTheme)
     }
-  `)
+  }, [])
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+    <div>
+      <helmet>
+        <link rel="shortcut icon" type="image/png" href={favicon} />
+        {theme === 'dark' && (
+          <link rel="stylesheet" type="text/css" href="/dark-mode.css" />
+        )}
+      </helmet>
+
+      <div id="layout" className="layout">
+        <Navigation onUpdateTheme={onUpdateTheme} theme={theme} />
+        <main>{children}</main >
+        <Footer />
       </div>
-    </>
+
+      <Helmet>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+      </Helmet>
+    </div>
   )
 }
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
