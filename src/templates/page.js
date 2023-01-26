@@ -17,9 +17,9 @@ export default function PageTemplate({ data }) {
 
       <div className="container">
         <div className="article-content">
-          <div className="post-header">
-            <h1>{title}</h1>
-          </div>
+          <header className="hero">
+            <h1>About Me</h1>
+          </header>
           <div
             className="post-content"
             dangerouslySetInnerHTML={{ __html: post.html }}

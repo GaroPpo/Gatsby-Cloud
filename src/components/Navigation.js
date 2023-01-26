@@ -21,13 +21,9 @@ const mainNavItems = [
     label: 'Blog'
   },
   {
-    url: '/projects',
-    label: 'Projects'
+    url: '/project',
+    label: 'Project'
   },
-  {
-    url: '/portfolio',
-    label: 'Portfolio'
-  }
 ]
 
 export const Navigation = ({ theme, onUpdateTheme }) => {

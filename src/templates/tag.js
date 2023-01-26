@@ -17,8 +17,8 @@ export default function TagTemplate({ data, pageContext }) {
     <div>
       <Helmet title={`Posts tagged: ${tag} | ${config.siteTitle}`} />
       <SEO />
-	  
-	  <div className="container">
+
+      <div className="container">
         <div className="article-content">
           <header className="hero">
             <h1>{tag}</h1>
@@ -33,26 +33,26 @@ export default function TagTemplate({ data, pageContext }) {
 TagTemplate.Layout = Layout
 
 export const pageQuery = graphql`
-  query TagPage($tag: String) {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
-    ) {
-      totalCount
+      query TagPage($tag: String) {
+        allMarkdownRemark(
+          sort: {order: DESC, fields: [frontmatter___date] }
+      filter: {frontmatter: {tags: { in: [$tag] } } }
+      ) {
+        totalCount
       edges {
         node {
-          id
+        id
           fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            tags
-            categories
+        slug
+      }
+      frontmatter {
+        date(formatString: "DD MMMM YYYY")
+      title
+      tags
+      categories
           }
         }
       }
     }
   }
-`
+      `

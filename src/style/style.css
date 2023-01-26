@@ -563,8 +563,8 @@ a.button:hover {
   border-bottom-color: var(--rainbow-4);
 }
 
-.navigation a.item.projects:hover,
-.navigation a.item.projects.active {
+.navigation a.item.project:hover,
+.navigation a.item.project.active {
   border-bottom-color: var(--rainbow-5);
 }
 
@@ -968,6 +968,10 @@ a.gatsby-resp-image-link {
   font-size: 1.5rem;
   font-weight: bolder;
   margin-top: 0;
+}
+
+.post-content img {
+  text-align: center !important;
 }
 
 @media screen and (min-width: 700px) {
