@@ -23,23 +23,23 @@ const createPages = async ({ graphql, actions }) => {
 
   const result = await graphql(`
     {    
-      edges {
-        allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
-            node {
-              id
-              frontmatter {
-                title
-                tags
-                categories
-                template
-              }
-              fields {
-                slug
-              }
+      allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+              tags
+              categories
+              template
+            }
+            fields {
+              slug
             }
           }
         }
       }
+    }
     `
   )
 
