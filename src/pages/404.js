@@ -8,7 +8,7 @@ import config from "../utils/config"
 export default function FourOhFour() {
   return (
     <div>
-      <Helmet title={`404 | ${config.siteTitle}`} />
+      <Helmet title={`Error 404 Not Found - ${config.siteTitle}`} />
       <SEO />
       <div className="container fourohfour">
         <section className="hero index">
