@@ -12,7 +12,7 @@ export default function Blog({ data }) {
   const posts = data.posts.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
   const title = 'Blog'
-  const description = 'Notes & tutorials'
+  const description = 'Writings that related to Programming or Computer Science'
 
   return (
     <div>
