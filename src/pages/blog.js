@@ -36,8 +36,8 @@ Blog.Layout = Layout
 export const blogQuery = graphql`
   query BlogQuery {
     posts: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {template: {eq: "post"}}}
     ) {
       edges {
         node {
