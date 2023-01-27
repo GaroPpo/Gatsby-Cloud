@@ -16,7 +16,7 @@ export default function Blog({ data }) {
 
   return (
     <div>
-      <Helmet title={`${title} | ${config.siteTitle}`} />
+      <Helmet title={`${title} - ${config.siteTitle}`} />
       <SEO customDescription={description} />
 
       <div className="container">
