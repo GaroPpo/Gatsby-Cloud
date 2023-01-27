@@ -7,7 +7,7 @@ module.exports = {
     pathPrefix: '/',
     siteUrl: 'https://www.ericliputra.com',
     description:
-      'Software engineer and open-source creator. This is my digital garden.',
+      'My name is Eric Liputra, and this is a place where I share my journey in programming and my experiences throughout the time.',
     logo: 'https://www.ericliputra.com/logo.png',
   },
   plugins: [
@@ -22,7 +22,7 @@ module.exports = {
         name: 'Eric Liputra',
         short_name: 'Eric Liputra',
         description:
-          'Software engineer and open source creator. This is my digital garden.',
+          'My name is Eric Liputra, and this is a place where I share my journey in programming and my experiences throughout the time.',
         start_url: '/',
         background_color: 'white',
         theme_color: '#6b76f3',
