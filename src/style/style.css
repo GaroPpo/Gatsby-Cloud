@@ -974,6 +974,16 @@ a.gatsby-resp-image-link {
   text-align: center !important;
 }
 
+.Lottie-Animation {
+  display: flex;
+}
+
+svg.Lottie-SVG {
+  width: 75% !important;
+  height: auto;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 700px) {
   .post-header time {
     display: block;

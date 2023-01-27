@@ -9,7 +9,7 @@ import config from '../utils/config'
 
 export default function PostTemplate({ tagss = [], data }) {
   const post = data.markdownRemark
-  const { tags, categories, title, date, thumbnail } = post.frontmatter
+  const { title, date, thumbnail } = post.frontmatter
 
   return (
     <div>

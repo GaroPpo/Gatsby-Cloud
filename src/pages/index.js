@@ -1,6 +1,7 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useEffect, useRef } from 'react'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+import Lottie from 'lottie-web'
 
 import { Layout } from '../components/Layout'
 import { SEO } from '../components/SEO'
@@ -12,6 +13,20 @@ import config from '../utils/config'
 export default function Index({ data }) {
   const latest = data.latest.edges
   const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
+  const lottieanimation = useRef(null)
+
+  useEffect(() => {
+    Lottie.loadAnimation({
+      container: lottieanimation.current,
+      renderer: 'svg',
+      loop: true,
+      animationData: require('../assets/animation.json'),
+      rendererSettings: {
+        preserveAspectRatio: 'xMinYMin',
+        className: 'Lottie-SVG',
+      }
+    })
+  }, [])
 
   return (
     <div>
@@ -20,7 +35,7 @@ export default function Index({ data }) {
 
       <div className="container">
         <section className="hero index">
-          <h1>👋 Hey, I'm Eric Liputra</h1>
+          <h1>Hey, I'm Eric Liputra</h1>
           <p className="hero-description">
             Welcome to my <b>Digital Home</b>.
             <br />
@@ -28,6 +43,8 @@ export default function Index({ data }) {
             I'm an undergraduate studying Computer Science from Indonesia. This website is a place where I share about myself, and my writing and most of it is the documentation of my personal experience in the field of computer science.
           </p>
         </section>
+
+        <div className="Lottie-Animation" ref={lottieanimation} />
 
         <section className="segment last-post">
           <h2 className="home-heading">

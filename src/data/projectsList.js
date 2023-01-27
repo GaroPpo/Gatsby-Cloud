@@ -13,7 +13,7 @@ export const projectsList = [
     slug: 'Backup-Restore-MySQL-Using-VB.Net',
     tagline: 'MySQL Database For WAMP & XAMPP User.',
     url: 'https://github.com/GaroPpo/Backup-Restore-MySQL-Using-VB.Net',
-    writeup: 'https://ericliputra.com/project/mysql-backup-restore-vb-net-mysqldump/',
+    writeup: '/mysql-backup-restore-using-vbnet-and-mysqldump',
     highlight: true,
   },
 ]
