@@ -21,11 +21,10 @@ const createPages = async ({ graphql, actions }) => {
   const tagPage = path.resolve('./src/templates/tag.js')
   const categoryPage = path.resolve('./src/templates/category.js')
 
-  const result = await graphql(
-    `
-      {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-          edges {
+  const result = await graphql(`
+    {    
+      edges {
+        allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
             node {
               id
               frontmatter {
