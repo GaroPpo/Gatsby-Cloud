@@ -1,8 +1,20 @@
-![Eric Liputra](https://avatars.githubusercontent.com/u/17180240?v=4#img-thumbnail)
-Hello 👋 , My Name is Eric Liputra. A young professional who loves challenges. Someone who’s willing to learn anything either related to Computer Science or other disciplines. A team player who’s also independent.
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    </a>
+</p>
+<h1 align="center">
+  Gatsby
+</h1>
 
-> “The people who are crazy enough to think they can change the world are the ones who do.” - <b>Steve jobs</b>
+### Welcome
 
-### Last But Not Least
+In 2023, I made the decision to switch my personal website from Wordpress to Gatsby after using Wordpress for five years. This was my first project of the year, as I wanted to learn React.js to pursue my dream of becoming a software developer. The transition was quite challenging for me since I had only worked with Visual Basic .NET previously to create desktop applications for tasks such as point-of-sale, stock management, sales reports, and other similar functions.
 
-Thank you for taking the time to read this. I know that I don’t have an inspiring story here, but I hope that you enjoy your time visiting my website. Once again, thanks a lot for taking the time to read this. I look forward to connecting with you.
+I would say that this project was not built completely from scratch since it bears a resemblance to the original website. However, it was a small but significant step for me in learning about React.js.
+
+Finally, I hope to maintain my motivation and continue working hard in pursuing my dream of becoming a software developer.
+
+### Inspiration
+
+This project is inspired by [Tania Rascia's](https://github.com/taniarascia/taniarascia.com) blog theme which thankfully she make it Open-Source.
