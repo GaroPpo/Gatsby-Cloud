@@ -6,7 +6,7 @@ template: 'page'
 
 ![Eric Liputra](https://avatars.githubusercontent.com/u/17180240?v=4#img-thumbnail)
 
-Hello 👋 , My Name is Eric Liputra. A young professional who loves challenges. Someone who’s willing to learn anything either related to Computer Science or other disciplines. A team player who’s also independent.
+Hello :wave: , My Name is Eric Liputra. A young professional who loves challenges. Someone who’s willing to learn anything either related to Computer Science or other disciplines. A team player who’s also independent.
 
 > “The people who are crazy enough to think they can change the world are the ones who do.” - <b>Steve jobs</b>
 

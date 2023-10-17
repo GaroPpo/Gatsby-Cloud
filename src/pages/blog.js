@@ -12,11 +12,11 @@ export default function Blog({ data }) {
   const posts = data.posts.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
   const title = 'Blog'
-  const description = 'Writings that related to Programming or Computer Science'
+  const description = 'Notes & tutorials'
 
   return (
     <div>
-      <Helmet title={`${title} - ${config.siteTitle}`} />
+      <Helmet title={`${title} | ${config.siteTitle}`} />
       <SEO customDescription={description} />
 
       <div className="container">

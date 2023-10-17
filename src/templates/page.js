@@ -13,12 +13,12 @@ export default function PageTemplate({ data }) {
   return (
     <div>
       <Helmet title={`${title} - ${config.siteTitle}`} />
-      <SEO />
+      <SEO customDescription={description} />
 
       <div className="container">
         <div className="article-content">
           <header className="hero">
-            <h1>{title}</h1>
+            <h1>About Me</h1>
           </header>
           <div
             className="post-content"

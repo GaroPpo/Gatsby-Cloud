@@ -9,12 +9,11 @@ import { projectsList } from '../data/projectsList'
 
 export default function Projects() {
   const title = 'Projects'
-  const description = 'Stuff I made that related to Programming'
 
   return (
     <div>
-      <Helmet title={`${title} - ${config.siteTitle}`} />
-      <SEO customDescription={description} />
+      <Helmet title={`${title} | ${config.siteTitle}`} />
+      <SEO />
 
       <div className="container">
         <div className="article-content">

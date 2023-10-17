@@ -4,7 +4,7 @@ title: 'Mengapa Kamu Harus Terjun Ke Dunia Esport'
 slug: 'mengapa-kamu-harus-terjun-ke-dunia-esport'
 categories: ["Blog"]
 tags: ["Esport", "Gaming"]
-thumbnail: '../images/LOL-eSports-Championship.jpg'
+thumbnail: '../images/LOL-eSports-Championship.webp'
 template: post
 ---
 Siapakah gamer yang tidak mengenal istilah Elektronik Sports, atau yang lebih dikenal dengan eSports? Menurut Fortune, SuperData Research, perusahaan asal Amerika, memprediksi bawah eSports akan meraup pendapatan sebesar 1.8 milyar dollar Amerika dua tahun mendatang.
