@@ -1,4 +1,10 @@
+const adapter = require("gatsby-adapter-netlify")
+
+
 module.exports = {
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+  }),
   siteMetadata: {
     title: 'Eric Liputra',
     author: {
@@ -16,6 +22,8 @@ module.exports = {
     // Netlify
     // ===================================================================================
     'gatsby-plugin-netlify',
+
+    
 
     // ===================================================================================
     // Meta
