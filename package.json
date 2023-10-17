@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^5.12.6",
+    "gatsby-adapter-netlify": "^1.0.1",
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-local-search": "^2.0.1",
     "gatsby-plugin-manifest": "^5.3.1",
