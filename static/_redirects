@@ -1,0 +1,3 @@
+# _redirects
+
+/content/*    https://github.com/GaroPpo/Gatsby-Cloud-Content/:splat   200
