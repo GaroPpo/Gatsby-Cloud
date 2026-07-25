@@ -46,9 +46,7 @@ These experiences taught me valuable lessons in leadership, finance, communicati
 
 ### 2023 — Returning to the IT Industry
 
-2023 became one of the most significant milestones in my career.
-
-I joined **Stella Maris Hospital** as an **IT Specialist**, beginning my first full-time professional career in IT.
+2023 became one of the most significant milestones in my career. I joined **Stella Maris Hospital** as an **IT Specialist**, beginning my first full-time professional career in IT.
 
 Working in healthcare exposed me to an entirely different scale of challenges, including:
 
@@ -67,9 +65,7 @@ Balancing both roles strengthened my leadership, time management, and decision-m
 
 ### 2024–2026 — Leading Technology
 
-As my responsibilities continued to grow, I was honored with the opportunity to become **Head of IT**.
-
-Today, I lead the hospital's IT department, overseeing both strategic planning and technical implementation.
+As my responsibilities continued to grow, I was honored with the opportunity to become **Head of IT**. Today, I lead the hospital's IT department, overseeing both strategic planning and technical implementation.
 
 My responsibilities include:
 
@@ -103,6 +99,10 @@ I believe technology changes every day—and that's exactly what makes this indu
 
 ## Last But Not Least
 
-Thank you for taking the time to visit my website. My journey hasn't been a straight line, but every experience—whether in technology, business, or leadership—has shaped who I am today. Each chapter has taught me something valuable, reinforcing my belief that continuous learning is the key to personal and professional growth. If you share an interest in software development, networking, healthcare technology, or simply enjoy discussing new ideas, I'd love to connect.
+Thank you for taking the time to visit my website.
+
+My journey hasn't been a straight line, but every experience—whether in technology, business, or leadership—has shaped who I am today. Each chapter has taught me something valuable, reinforcing my belief that continuous learning is the key to personal and professional growth.
+
+If you share an interest in software development, networking, healthcare technology, or simply enjoy discussing new ideas, I'd love to connect.
 
 Let's build something meaningful together.
