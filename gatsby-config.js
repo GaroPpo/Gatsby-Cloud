@@ -1,5 +1,6 @@
 module.exports = {
-    siteMetadata: {
+  adapter: require('gatsby-adapter-netlify').default(),
+  siteMetadata: {
     title: 'Eric Liputra',
     author: {
       name: 'Eric Liputra',
@@ -11,11 +12,6 @@ module.exports = {
     logo: 'https://www.ericliputra.com/logo.png',
   },
   plugins: [
-
-    // ===================================================================================
-    // Netlify
-    // ===================================================================================
-    'gatsby-plugin-netlify',    
 
     // ===================================================================================
     // Meta
