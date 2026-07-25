@@ -10,30 +10,99 @@ Greetings! My name is Eric Liputra, a dedicated and enthusiastic professional dr
 
 > “The people who are crazy enough to think they can change the world are the ones who do.” - <b>Steve jobs</b>
 
-### My Story
+## My Story
 
-I was born in Makassar, South Sulawesi, Indonesia, in June 1995.
+I was born in **Makassar, South Sulawesi, Indonesia**, in June 1995.
 
-My journey into the world of technology began during my high school years when I taught myself HTML and CSS through blogging. In 2011, I created my first blog, igniting my passion for web development. Since then, I've honed my skills, mastering various aspects of website creation and design.
+### 2011 — Where It All Began
 
-**In 2014**, I embarked on my first professional career journey as a Content Writer and Social Media Admin at TEAMnxl>, Indonesia's leading eSports team by that time. This role immersed me in the exciting world of eSports, particularly Counter-Strike: Global Offensive tournaments, fueling my passion for competitive gaming.
+My passion for technology started with a simple Blogspot website. Learning HTML and CSS through blogging quickly turned into an obsession with understanding how websites worked. Despite limited resources, I spent countless hours experimenting, learning from online communities, and eventually progressed from modifying templates to building complete WordPress themes. Looking back, this was where my curiosity became a career.
 
-**In 2016**, I bravely ventured into freelance software development, specializing in crafting desktop-based point-of-sale applications using VB.Net, Crystal Report, and Dev Express. This journey not only broadened my programming expertise but also honed my communication skills and problem-solving capabilities. Drawing from my experience, I aimed to offer the best advice as a person with an IT background, striving to create applications that provide users with convenience in carrying out operations through intuitive and efficient features.
+### 2014 — My First Professional Experience
 
-**In 2017**, I embarked on significant transitions in my career journey. I made the decision to resign from TEAMnxl>, where I had served as a Content Writer and Social Media Admin for the leading eSports team in Indonesia. Additionally, I proudly graduated with a Bachelor's Degree in Computer Science, solidifying my dedication to the technology field. Despite briefly exploring roles outside the IT industry, such as working as an Accounting Staff at a Local Wholesale Company (**yes, you read it right!**), my passion for coding remained unwavering. Even in non-technical positions, I continued to sharpen my programming skills, laying the foundation for my eventual return to the tech industry.
+My first professional role was as a **Content Writer & Social Media Administrator** at **TEAMnxl>**, one of Indonesia's leading eSports organizations at the time.Working in the competitive gaming industry introduced me to professional content creation, community engagement, and the exciting world of Counter-Strike tournaments. It also strengthened my communication skills while allowing me to combine two passions: technology and gaming.
 
-During the transformative period from **2020 to 2022**, I experienced a series of significant shifts in my career journey. Firstly, I bravely resigned from my accounting staff position, signaling a deliberate pivot in my professional path. Despite the challenges posed by the COVID-19 pandemic, I remained resilient and adaptable, navigating through uncertain times with determination. In a bold entrepreneurial move, I co-founded a screen printing business with a close friend, embracing creativity and commerce amidst adversity. Simultaneously, I took on the role of Store Manager at a friend's cafe shop, applying my managerial skills to contribute to its growth and success. These experiences have been instrumental in shaping me into a more versatile and adaptable professional, equipping me with the skills and resilience needed to navigate the dynamic landscape of the business world with humility and readiness to embrace new challenges.
+### 2016 — Freelance Software Developer
 
-**In 2023**, I found myself juggling two exciting and demanding roles that kept me on my toes!
+Driven by my passion for programming, I started freelancing as a software developer.
 
-Firstly, I took on the challenge of becoming a Freelance Operational Manager at Rise Up Basketball Academy. In this role, I was responsible for managing finances, ensuring smooth day-to-day operations, and maintaining positive communication with parents regarding practice schedules and fees. It was a role that demanded both organization and empathy, but the opportunity to contribute to the development of young athletes was incredibly rewarding.
+Using **VB.NET**, **Crystal Reports**, **DevExpress**, and **SQL Server**, I developed desktop-based Point of Sale (POS) systems and custom business applications for small businesses.
 
-At the same time, I seized my very first professional position in the IT industry as an IT Specialist at Stella Maris Makassar Hospital. This marked a significant milestone in my career journey since graduating in 2017. In this role, I played a vital role in maintaining and optimizing the hospital's technological infrastructure. From developing customized software solutions to providing comprehensive IT support and enhancing network security, I embraced the challenges of the healthcare sector with enthusiasm and dedication.
+This experience taught me an important lesson that still guides me today:
 
-Balancing these dual roles was no easy feat, but it was undeniably fulfilling to make meaningful contributions to both the sports and healthcare industries. Each day presented new opportunities for growth and learning, reinforcing my commitment to excellence in every endeavor.
+> Technology should solve problems, not create them.
 
-### Last But Not Least
+Understanding user needs became just as important as writing code.
 
-Thank you for taking the time to visit my website. While my story may not be extraordinary, I hope you've enjoyed learning about my journey. I appreciate your interest and look forward to connecting with you.
+### 2017–2022 — Growing Beyond Technology
 
-Let's connect and explore how we can collaborate and make a difference in the world of technology and beyond. Whether you're seeking a passionate IT professional, a creative problem-solver, or a versatile team player, I'm here to collaborate and thrive together.
+In 2017, I graduated with a **Bachelor's Degree in Computer Science**.
+
+Although my career temporarily took me outside the IT industry, my passion for programming never faded. I worked in accounting, wholesale operations, retail, and food & beverage management while continuing to learn software development during my spare time.
+
+During the COVID-19 pandemic, I co-founded a screen-printing business and later managed daily operations at a friend's café.
+
+These experiences taught me valuable lessons in leadership, finance, communication, customer service, and business operations. They helped me understand that technology is only valuable when it supports people and business goals.
+
+### 2023 — Returning to the IT Industry
+
+2023 became one of the most significant milestones in my career.
+
+I joined **Stella Maris Hospital** as an **IT Specialist**, beginning my first full-time professional career in IT.
+
+Working in healthcare exposed me to an entirely different scale of challenges, including:
+
+- Hospital Information Systems (HIS)
+- Software development
+- Database administration
+- Network engineering
+- Server management
+- Cybersecurity
+- Technical support
+- System integration
+
+At the same time, I also served as **Freelance Operational Manager** at Rise Up Basketball Academy, managing finances, operations, and communication with parents.
+
+Balancing both roles strengthened my leadership, time management, and decision-making skills.
+
+### 2024–2026 — Leading Technology
+
+As my responsibilities continued to grow, I was honored with the opportunity to become **Head of IT**.
+
+Today, I lead the hospital's IT department, overseeing both strategic planning and technical implementation.
+
+My responsibilities include:
+
+- Leading software development projects
+- Managing Hospital Information Systems (HIS)
+- Network architecture and infrastructure
+- Cybersecurity and IT governance
+- Database optimization and reporting
+- API and third-party system integration
+- Server virtualization and infrastructure
+- IT operations and service management
+- Vendor coordination
+- Team leadership and mentoring
+
+One of the projects I'm most proud of is contributing to the hospital's digital transformation by building solutions that improve operational efficiency while supporting better patient care.
+
+Although my role has evolved into leadership, I still enjoy writing code, designing databases, automating workflows, and learning new technologies. Staying hands-on keeps me connected to the work that inspired me to pursue this career in the first place.
+
+## Beyond Work
+
+Outside the office, I'm always looking for opportunities to learn and create.
+
+Some of my interests include:
+- 💻 Software Engineering
+- 🌐 Networking & Infrastructure
+- 🤖 Artificial Intelligence
+- 🔐 Cybersecurity
+- 🏥 Healthcare Technology
+
+I believe technology changes every day—and that's exactly what makes this industry exciting.
+
+## Last But Not Least
+
+Thank you for taking the time to visit my website. My journey hasn't been a straight line, but every experience—whether in technology, business, or leadership—has shaped who I am today. Each chapter has taught me something valuable, reinforcing my belief that continuous learning is the key to personal and professional growth. If you share an interest in software development, networking, healthcare technology, or simply enjoy discussing new ideas, I'd love to connect.
+
+Let's build something meaningful together.
